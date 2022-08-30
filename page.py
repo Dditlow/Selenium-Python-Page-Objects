@@ -1,11 +1,13 @@
 from element import BasePageElement
 from locators import MainPageLocators
 
+
 class SearchTextElement(BasePageElement):
     """This class gets the search text from the specified locator"""
 
-    #The locator for search box where search string is entered
+    # The locator for search box where search string is entered
     locator = 'q'
+# notes
 
 
 class BasePage(object):
@@ -19,7 +21,7 @@ class BasePage(object):
 class MainPage(BasePage):
     """Home page action methods come here. I.e. Python.org"""
 
-    #Declares a variable that will contain the retrieved text
+    # Declares a variable that will contain the retrieved text
     search_text_element = SearchTextElement()
 
     def is_title_matches(self):

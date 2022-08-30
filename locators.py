@@ -4,7 +4,7 @@ class MainPageLocators(object):
     """A class for main page locators. All main page locators should come here"""
 
     GO_BUTTON = (By.ID, 'submit')
-
+#notes
 class SearchResultsPageLocators(object):
     """A class for search results locators. All search results locators should
     come here"""
