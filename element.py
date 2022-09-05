@@ -1,5 +1,5 @@
 from selenium.webdriver.support.ui import WebDriverWait
-#notes
+
 
 class BasePageElement(object):
     """Base page class that is initialized on every page object class."""

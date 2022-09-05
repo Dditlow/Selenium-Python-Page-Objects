@@ -7,7 +7,7 @@ class SearchTextElement(BasePageElement):
 
     # The locator for search box where search string is entered
     locator = 'q'
-# notes
+
 
 
 class BasePage(object):
